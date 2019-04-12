@@ -5,7 +5,7 @@ pipenvを使ってjupyter notebookで作業できるようにするためのレ�
 1. pipenv入っていなければ`pip3 install pipenv`で取得
     - deathstarにはすでに入っている。
 
-2. `https://github.com/GENZITSU/test_repository.git`
+2. `git clone https://github.com/GENZITSU/test_repository.git`
 
 3. `cd test_repository`した後に`pipenv install`
 
@@ -36,7 +36,7 @@ pipenvを使ってjupyter notebookで作業できるようにするためのレ�
 2. `pipenv install --python 3.6`
 3. `pipenv install jupyter jupytext`  
     -  `pipenv install environment-kernels`もやっておくと安全。
-    
+
 4. あとは上と同じ！
 
 
