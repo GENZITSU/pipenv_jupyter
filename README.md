@@ -25,8 +25,9 @@ pipenvを使ってjupyter notebookで作業できるようにするためのレ�
     ```
 6. あとは`pipenv run jupyter notebook`ないしは`pipenv shell`で環境内に入ってあとに`jupyter notebook`を走らせて、ブラウザ上で`http://localhost:8888`にアクセスすれば使えるはず。
 
-7. ライブラリのインストールは`pipenv install hogehoge`でできます。
-    - `pipenv install numpy pandas scipy scikit-learn matplotlib japanize-matplotlib seaborn tqdm`とりあえずここら辺を入れておけば事足りそう。
+7. ライブラリのインストールは`pipenv install hogehoge`で出来る。
+    - とりあえずここら辺を入れておけばOK。  
+    `pipenv install numpy pandas scipy scikit-learn matplotlib japanize-matplotlib seaborn tqdm`
     - 一度作った環境はPipfileで移動することができる。どこかで作成したPipfileをディレクトリに置いて`pipenv install`を走らせれば、環境が再現できる。
 
 
