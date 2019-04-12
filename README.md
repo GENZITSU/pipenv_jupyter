@@ -3,7 +3,7 @@ pipenvを使ってjupyter notebookで作業できるようにするためのレ�
 
 #  手順
 1. `pip install pipenv`
-2. 作業ディレクトリに移動 `cd working_dir` 
+2. 作業ディレクトリに移動`cd working_dir` 
     - pipenvではディレクトリでは`pipenv　install`で生成されるPipfileがあるディレクトリごとに環境を分けられます。
 2. `pipenv install --python 3.6`
 3. `pipenv install jupyter jupytext`  
@@ -25,7 +25,8 @@ pipenvを使ってjupyter notebookで作業できるようにするためのレ�
     ```
 6. あとは`pipenv run jupyter notebook`ないしは`pipenv shell`で環境内に入ってあとに`jupyter notebook`を走らせて、ブラウザ上で`http://localhost:8888`にアクセスすれば使えるはず。
 
-7. あとは好きなライブラリを`pipenv install hogehoge`で入れていけばプロジェクトごとに環境を分けて作業できる。
+7. ライブラリのインストールは`pipenv install hogehoge`でできます。
+    - `pipenv install numpy pandas scipy scikit-learn matplotlib japanize-matplotlib seaborn tqdm`とりあえずここら辺を入れておけば事足りそう。
     - 一度作った環境はPipfileで移動することができる。どこかで作成したPipfileをディレクトリに置いて`pipenv install`を走らせれば、環境が再現できる。
 
 
