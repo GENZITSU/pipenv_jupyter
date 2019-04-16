@@ -17,6 +17,7 @@ scipy = "*"
 tqdm = "*"
 environment-kernels = "*"
 jupytext = "*"
+krippendorff = "*"
 
 [requires]
-python_version = "3.6"
+python_version = "3.7"
